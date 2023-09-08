@@ -6,12 +6,8 @@ import gameMod.*;
 public class GameFactory {
 
 
-    public static Mod started(LvlGame lvl) {
-        Mod mod = null;
-        System.out.println("Введите уровень сложности:");
-        System.out.println("EASY");
-        System.out.println("NORMAL");
-        System.out.println("HARD");
+    public static GameMod started(LvlGame lvl) {
+        GameMod mod = null;
 
         switch (lvl) {
             case EASY:
@@ -19,12 +15,13 @@ public class GameFactory {
                 System.out.println("Создана Игра уровень сложности: Легко");
                 break;
             case NORMAL:
-                mod = new NormalGame();
+                mod = NormalGame.initNormal();
                 System.out.println("Создана Игра уровень сложности: Нормально");
                 break;
             case HARD:
-                mod = new HardGame();
+                mod = HardGame.initHard();
                 System.out.println("Создана Игра уровень сложности: Сложно");
+                break;
             default:
                 System.out.println("Не верная команда");
         }

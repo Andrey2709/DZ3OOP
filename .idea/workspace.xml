@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="068b795a-5880-42b0-abd0-824e4e9377a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/game/GameFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/GameFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameMod/EasyGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameMod/EasyGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameMod/GameMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameMod/GameMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameMod/HardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameMod/HardGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameMod/Mod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameMod/NormalGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameMod/NormalGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +41,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="gameMod" />
